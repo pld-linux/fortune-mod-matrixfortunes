@@ -1,10 +1,13 @@
 Summary:	Collection of Matrix Fortunes
-Name:		fortune-mod-matrix-fortunes
+Name:		fortune-mod-matrixfortunes
 Version:	0.1.0
 Release:	10
 License:	GPL
-Group:		Games
-Source0:	matrixfortunes-%{version}.tar.bz2
+Group:		Applications/Games
+Group(de):	Applikationen/Spiele
+Group(pl):	Aplikacje/Gry
+Source0:	http://cx.capsi.com/src/matrixfortunes/matrixfortunes-%{version}.tar.bz2
+URL:		http://cx.capsi.com/code-matrixfortunes.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,7 +29,6 @@ by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
 
 %prep
 %setup -q -n matrixfortunes-%{version}
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
