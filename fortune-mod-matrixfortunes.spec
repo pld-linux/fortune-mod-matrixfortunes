@@ -3,7 +3,7 @@ Name:		fortune-mod-matrix-fortunes
 Version:	0.1.0
 Release:	10
 License:	GPL
-Group:		Amusements/Games
+Group:		Games
 Source0:	matrixfortunes-%{version}.tar.bz2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
