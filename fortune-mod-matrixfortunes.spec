@@ -1,4 +1,4 @@
-Summary:	Collection of Bofh Excuses Fortunes
+Summary:	Collection of Matrix Fortunes
 Name:		fortune-mod-matrix-fortunes
 Version:	0.1.0
 Release:	10
