@@ -5,8 +5,6 @@ Version:	0.1.0
 Release:	10
 License:	GPL
 Group:		Applications/Games
-Group(de):	Applikationen/Spiele
-Group(pl):	Aplikacje/Gry
 Source0:	http://cx.capsi.com/src/matrixfortunes/matrixfortunes-%{version}.tar.bz2
 URL:		http://cx.capsi.com/code-matrixfortunes.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
