@@ -5,7 +5,7 @@ Release:	10
 Copyright:	GPL
 Group:		Amusements/Games
 Source0:	matrixfortunes-%{version}.tar.bz2
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Fortune-mod contains the ever-popular fortune program. Want a little
