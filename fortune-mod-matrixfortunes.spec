@@ -1,5 +1,5 @@
 Summary:	Collection of Matrix Fortunes
-Summary(pl):	Kolekcja fortunek z Matriksa
+Summary(pl.UTF-8):   Kolekcja fortunek z Matriksa
 Name:		fortune-mod-matrixfortunes
 Version:	0.1.0
 Release:	10
@@ -21,12 +21,12 @@ they log in.
 Install fortune if you want a program which will bestow these random
 bits o' wit.
 
-%description -l pl
-Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
-"przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
+%description -l pl.UTF-8
+Fortune-mod zawiera wciÄ…Å¼ popularny program fortune ("cytat dnia",
+"przepowiednia"). Masz ochotÄ™ na odrobinÄ™ mÄ…droÅ›ci przekazanej Ci
 podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
-poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
-by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
+poczuciem humoru mogÄ… dodaÄ‡ fortune do plikÃ³w .login uÅ¼ytkownikÃ³w tak,
+by kaÅ¼dy otrzymaÅ‚ swojÄ… dawkÄ™ mÄ…droÅ›ci przy logowaniu.
 
 %prep
 %setup -q -n matrixfortunes-%{version}
