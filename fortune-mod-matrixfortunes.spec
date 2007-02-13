@@ -1,5 +1,5 @@
 Summary:	Collection of Matrix Fortunes
-Summary(pl.UTF-8):   Kolekcja fortunek z Matriksa
+Summary(pl.UTF-8):	Kolekcja fortunek z Matriksa
 Name:		fortune-mod-matrixfortunes
 Version:	0.1.0
 Release:	10
