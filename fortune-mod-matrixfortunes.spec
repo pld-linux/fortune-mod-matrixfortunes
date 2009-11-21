@@ -9,6 +9,7 @@ Source0:	http://cx.capsi.com/src/matrixfortunes/matrixfortunes-%{version}.tar.bz
 # Source0-md5:	9a4cae06e21fb12a2e7a680053ec63c9
 URL:		http://cx.capsi.com/code-matrixfortunes.html
 Requires:	fortune-mod
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
